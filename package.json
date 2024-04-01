@@ -1,6 +1,6 @@
 {
   "name": "@project-sunbird/sunbird-sdk",
-  "version": "7.0.22",
+  "version": "7.0.23",
   "description": "Heart of the sunbird mobile app.",
   "main": "index.js",
   "scripts": {
@@ -33,7 +33,7 @@
     "@project-sunbird/client-services": "7.0.6",
     "rxjs": ">=6",
     "cordova-plugin-advanced-http": "^2.0.2",
-    "cordova-plugin-file": "^7.0.0",
+    "cordova-plugin-file": "8.0.1",
     "cordova-plugin-awesome-shared-preferences": "^0.1.0",
     "cordova-plugin-inappbrowser": "5.0.0",
     "sb-cordova-plugin-customtabs": "git+https://github.com/Sunbird-Ed/sb-cordova-plugin-customtabs.git",
