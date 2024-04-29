@@ -766,7 +766,7 @@ export class ProfileServiceImpl implements ProfileService {
     }
 
     getConsent(userConsent: Consent): Observable<ReadConsentResponse> {
-        return this.userService.getConsent(userConsent, { apiPath : this.sdkConfig.profileServiceConfig.profileApiPath});
+        return this.userService.getConsent(userConsent, { apiPath : this.sdkConfig.profileServiceConfig.profileApiPath_V2});
     }
 
     updateConsent(userConsent: Consent): Observable<UpdateConsentResponse> {
